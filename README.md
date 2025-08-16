@@ -38,7 +38,7 @@ Set auth vars and call login to get a bearer token
     export PIIVAULT_ACCOUNTID=<subscription-account-id>
     export PIIVAULT_APIKEY=<subscription-account-apikey>
 
-    ./piivault-commands.sh --VERB login
+    ./piivault-curl.sh --VERB login
 
 
 Example of loading profile data into the vault
